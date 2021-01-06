@@ -9,6 +9,7 @@ import Home from './HomeComponent.js';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import About from './AboutComponent.js';
 import Header from './HeaderComponent';
+import Contact from './ContactComponent.js';
 class Main extends Component {
     constructor(props) {
         super(props)
@@ -29,7 +30,8 @@ class Main extends Component {
                     <Switch>
                         <Route path='/home' component={() =><Home/>} />
                         <Route exact path='/menu' component={() => <Menu dishes={this.state.dishes} />} />
-                        <Route path="/aboutus" component={() => <About /> } />
+                        <Route path="/aboutus" component={() => <About />} />
+                        <Route path="/contactus" component={() => <Contact />} />
                         <Redirect to="/home" />
                     </Switch>
                 </div>
