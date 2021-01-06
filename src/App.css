@@ -13,21 +13,83 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
 }
 
+
+
+
+.footer {
+    background-color: #EEEEEE;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jum{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    text-align:center;
+}
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+    
+header .banner {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 auto;
+        width: 85%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+header .banner-text {
+        width: 100%;
+    }
+    header .banner-text h1 {
+        font: 90px/1.1em , sans-serif;
+        font-family: Algerian;
+        color: white;
+        letter-spacing: -2px;
+        margin: 0 auto 18px auto;
+    }
+    header .banner-text h3 {
+        font: 20px/1.9em 'opensans-bold' , serif; 
+        color: white;
+        margin: 0 auto;
+        width: 70%;
+    }
+header .banner-text h3 span,
+            header .banner-text h3 a {
+                color: #fff;
+            }
+header .banner-text hr {
+            width: 60%;
+            margin: 18px auto 24px auto;
+            border-color: #2F2D2E;
+            border-color: rgba(150, 150, 150, .1);
+        }
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+
+.navbar-light {
+    
+}
+#about {
+
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
